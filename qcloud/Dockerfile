@@ -1,6 +1,7 @@
 FROM node:latest
 
 ADD main.js /data/
-ADD ../main.js /data1/
+
+RUN cat /data/main.js
 
 CMD ["node", "/data/main.js"]
