@@ -1,6 +1,6 @@
 FROM node:latest
 
-ADD main.js /data/
+ADD ../main.js /data/
 
 RUN cat /data/main.js
 
