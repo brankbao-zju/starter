@@ -1,6 +1,6 @@
 FROM ccr.ccs.tencentyun.com/cienv/base-node:latest
 
-ADD main.js /data/
+COPY main.js /data/main.js
 
 RUN cat /data/main.js
 
